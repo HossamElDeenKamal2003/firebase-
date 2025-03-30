@@ -1,0 +1,19 @@
+{
+  "name": "firebase-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "author": "Hossam Eldeen kamal",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/firestore": "^7.11.0",
+    "express": "^4.21.2",
+    "firebase": "^8.10.1",
+    "firebase-admin": "^13.2.0",
+    "nodemon": "^3.1.9"
+  }
+}
